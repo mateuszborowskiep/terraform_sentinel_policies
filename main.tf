@@ -1,5 +1,5 @@
 provider "google" {
-    project = "${var.gcp_project}"
+    project = "rosy-crawler-389806"
     region = "europe-west1"
 }
 
