@@ -24,7 +24,7 @@ variable "image" {
 resource "google_compute_instance" "demo" {
     name = "${var.instance_name}"
     machine_type = "${var.machine_type}"
-    zone = "europe-west1-c"
+    zone = "europe-west1-d"
     allow_stopping_for_update = true
 
     boot_disk {
