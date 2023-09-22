@@ -16,7 +16,7 @@ variable "instance_name" {
 
 variable "image" {
     description = "GCP image"
-    default = "debian-cloud/debian-9"
+    default = "debian-cloud/debian-12"
 }
 
 
