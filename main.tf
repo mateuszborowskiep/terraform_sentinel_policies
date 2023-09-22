@@ -41,4 +41,9 @@ resource "google_compute_instance" "demo" {
         }
     }
 
+    labels = {
+      project_name = "terraform_sentinel_policies"
+      owner = "MateuszBorowski"
+    }
+
 }
